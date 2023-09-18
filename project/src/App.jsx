@@ -10,6 +10,7 @@ function App() {
     <div className="container">
       <Navbar />
       <Jumbotron />
+      {/* add cards below */}
       <Footer />
     </div>
   );
