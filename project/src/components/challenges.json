@@ -1,24 +1,41 @@
 [
     {
       "id": 1,
-      "name": "SpongeBob",
+      "name": "Prework Study Guide",
       "image":
-        "https://vignette.wikia.nocookie.net/spongebobgalaxy/images/0/07/SpongeBob_SquarePants.png/revision/latest?cb=20171228024014",
+        "./src/assets/prework-study-guide-screen.png",
       "description": "A Pineapple Under the Sea"
     },
     {
       "id": 2,
-      "name": "Mr. Krabs",
+      "name": "Over The Horeison",
       "image":
-        "https://vignette3.wikia.nocookie.net/vsbattles/images/8/80/Mr._Krabs.png/revision/latest?cb=20150919162131",
+      "./src/assets/prework-study-guide-screen.png",
       "description": "A Giant Anchor"
     },
     {
       "id": 3,
       "name": "Squidward",
       "image":
-        "https://vignette2.wikia.nocookie.net/fictionalcharacters/images/a/ac/Squidward.png/revision/latest?cb=20131121012626",
+      "./src/assets/prework-study-guide-screen.png",,
       "description": "An Easter Island Head"
-    }
+    },
+    {
+        "id": 4,
+        "name": ,
+        "image": "./src/assets/.png",,
+        "description":,
+    },
+    {
+        "id": 5,
+        "name": ,
+        "image": "./src/assets/prework-study-guide-screen.png",,
+        "description":,
+    },{
+        "id": 6,
+        "name": ,
+        "image": "./src/assets/prework-study-guide-screen.png",,
+        "description":,
+    },
   ]
   
