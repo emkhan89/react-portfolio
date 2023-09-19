@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "Prework Study Guide",
+    "image": "https://vignette.wikia.nocookie.net/spongebobgalaxy/images/0/07/SpongeBob_SquarePants.png/revision/latest?cb=20171228024014",
+    "description": "Prework study guide challenge which had to be completed before the start of Bootcamp."
+     
+  },
+  {
+    "id": 2,
+    "name": "Over The Horeison",
+    "image":
+      "https://vignette3.wikia.nocookie.net/vsbattles/images/8/80/Mr._Krabs.png/revision/latest?cb=20150919162131",
+    "description": "Code Refactor Challenge which required students to make the code more DRY and SEO optimised."
+   
+  },
+  {
+    "id": 3,
+    "name": "Bootstrap Portfolio",
+    "image":
+      "https://vignette2.wikia.nocookie.net/fictionalcharacters/images/a/ac/Squidward.png/revision/latest?cb=20131121012626",
+    "description": "First attempt at working with Bootstrap. Getting familiar with how to install CDNs and editing the Bootstrap with CSS."
+   
+  }
+]
+
