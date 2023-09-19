@@ -1,0 +1,16 @@
+.display-5,
+.sub {
+  color: #469b4a;
+  text-align: center;
+}
+
+#avatar {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1,
+h3 {
+  text-align: center;
+}

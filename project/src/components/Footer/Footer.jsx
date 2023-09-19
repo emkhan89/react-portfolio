@@ -1,8 +1,12 @@
 import React from "react";
+import "./style.css";
 
 function Footer() {
   return (
     <footer>
+      <h4 id="contact">
+        <b>Contact Me</b>
+      </h4>
       <h6 class="contact-info">
         <svg
           xmlns="http://www.w3.org/2000/svg"

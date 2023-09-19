@@ -1,0 +1,38 @@
+[
+    {
+      "id": 1,
+      "name": "Prework Study Guide",
+      "image": "./src/assets/prework-study-guide-screen.png",
+      "description": "A Pineapple Under the Sea"
+    },
+    {
+      "id": 2,
+      "name": "Over The Horeison",
+      "image": "./src/assets/prework-study-guide-screen.png",
+      "description": "A Giant Anchor"
+    },
+    {
+      "id": 3,
+      "name": "Bootstrap Portfolio",
+      "image": "./src/assets/prework-study-guide-screen.png",,
+      "description": "An Easter Island Head"
+    },
+    {
+        "id": 4,
+        "name": "Console Finances" ,
+        "image": "./src/assets/.png",
+        "description": "4th project",
+    },
+    {
+        "id": 5,
+        "name": "Coding Quiz",
+        "image": "./src/assets/prework-study-guide-screen.png",
+        "description": "5th",
+    },{
+        "id": 6,
+        "name": "Daily Planner App",
+        "image": "./src/assets/prework-study-guide-screen.png",,
+        "description":,
+    },
+  ]
+  
