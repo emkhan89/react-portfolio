@@ -1,5 +1,6 @@
 import React from "react";
 import "./style.css";
+import { NavLink } from "react-router-dom";
 
 function Navbar() {
   return (
@@ -20,7 +21,7 @@ function Navbar() {
       >
         <span className="navbar-toggler-icon"></span>
       </button>
-      <div className="collapse navbar-collapse" id="navbarSupportedContent">
+      {/* <div className="collapse navbar-collapse" id="navbarSupportedContent">
         <ul className="navbar-nav mr-auto">
           <li className="nav-item active">
             <a className="nav-link" href="#avatar">
@@ -44,7 +45,31 @@ function Navbar() {
             </a>
           </li>
         </ul>
-      </div>
+      </div> */}
+      <NavLink
+        to="/"
+        className={({ isActive }) =>
+          isActive ? "nav-link active" : "nav-link"
+        }
+      >
+        About
+      </NavLink>
+      <NavLink
+        to="projects"
+        className={({ isActive }) =>
+          isActive ? "nav-link active" : "nav-link"
+        }
+      >
+        Projects
+      </NavLink>{" "}
+      <NavLink
+        to="contact"
+        className={({ isActive }) =>
+          isActive ? "nav-link active" : "nav-link"
+        }
+      >
+        Contact
+      </NavLink>
     </nav>
   );
 }

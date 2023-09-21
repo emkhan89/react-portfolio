@@ -6,3 +6,8 @@ footer {
 #contact {
   color: #469b4a;
 }
+
+.btn {
+  color: black !important;
+  background-color: #469b4a !important;
+}

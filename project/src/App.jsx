@@ -1,47 +1,25 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import Navbar from "./components/Navbar/Navbar";
-import Jumbotron from "./components/Jumbotron/Jumbotron";
-import Footer from "./components/Footer/Footer";
+import Navbar from "./components/Navbar";
+import Contact from "./components/pages/Contact";
+import Projects from "./components/pages/Projects";
 import "bootstrap/dist/css/bootstrap.min.css";
 import * as bootstrap from "bootstrap"; // Import all of Bootstrap's JS
 // import ChallengesCard from "./components/ChallengesCard/index";
 // import challenges from "./challenges.json";
-import FriendCard from "./components/FriendCard";
-import Wrapper from "./components/Wrapper";
 
-import friends from "./friends.json";
+import Home from "./components/pages/Home";
 
 function App() {
   return (
     <div className="container">
-      <Navbar />
-      <Jumbotron />
-      <h3 id="work">
-        <b>Work</b>
-      </h3>
-      <Wrapper>
-        <FriendCard
-          name={friends[0].name}
-          image={friends[0].image}
-          description={friends[0].description}
-          location={friends[0].location}
-        />
-        <FriendCard
-          name={friends[1].name}
-          image={friends[1].image}
-          description={friends[1].description}
-          location={friends[1].location}
-        />
-        <FriendCard
-          name={friends[2].name}
-          image={friends[2].image}
-          description={friends[2].description}
-          location={friends[2].location}
-        />
-      </Wrapper>
-
-      <Footer />
+      <Router>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="projects" element={<Projects />} />
+          <Route path="contact/*" element={<Contact />} />
+        </Routes>
+      </Router>
     </div>
   );
 }
