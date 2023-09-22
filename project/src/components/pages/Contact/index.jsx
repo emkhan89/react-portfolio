@@ -1,12 +1,14 @@
 import React from "react";
 import "./style.css";
+import Navbar from "../../Navbar";
 
 function Contact() {
   return (
     <footer>
+      <Navbar />
       <form>
         <h1>
-          <b>Contact</b>
+          <b>Contact Form</b>
         </h1>
         <div className="mb-3">
           <label for="exampleInputName" className="form-label">
@@ -33,6 +35,9 @@ function Contact() {
           Submit
         </button>
       </form>
+      <br />
+      <br />
+      <br />
       <h4 id="contact">
         <b>Contact Me</b>
       </h4>

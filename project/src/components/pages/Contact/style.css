@@ -11,3 +11,7 @@ footer {
   color: black !important;
   background-color: #469b4a !important;
 }
+
+footer {
+  display: flexbox;
+}

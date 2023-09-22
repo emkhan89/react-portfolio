@@ -47,28 +47,37 @@ function Navbar() {
         </ul>
       </div> */}
       <NavLink
+        id="nav-item"
         to="/"
         className={({ isActive }) =>
           isActive ? "nav-link active" : "nav-link"
         }
       >
-        About
+        <h4>
+          <b>About</b>
+        </h4>
       </NavLink>
       <NavLink
+        id="nav-item"
         to="projects"
         className={({ isActive }) =>
           isActive ? "nav-link active" : "nav-link"
         }
       >
-        Projects
+        <h4>
+          <b>Projects</b>
+        </h4>
       </NavLink>{" "}
       <NavLink
+        id="nav-item"
         to="contact"
         className={({ isActive }) =>
           isActive ? "nav-link active" : "nav-link"
         }
       >
-        Contact
+        <h4>
+          <b>Contact</b>
+        </h4>
       </NavLink>
     </nav>
   );

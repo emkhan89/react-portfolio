@@ -16,6 +16,9 @@ function Home() {
           <h1 className="display-5 fw-bold" id="about">
             Hello World, I'm Mohsin!
           </h1>
+          <h2 id="msg">
+            <b>Welcome to my portfolio site</b>
+          </h2>
 
           <h3 className="sub">
             <b>I'm a Junior Front End Web Developer!</b>
