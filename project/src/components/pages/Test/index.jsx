@@ -12,7 +12,10 @@ function Test() {
         Base class
       </button>
       <Card style={{ width: "18rem" }}>
-        <Card.Img variant="top" src="holder.js/100px180" />
+        <Card.Img
+          variant="top"
+          src="https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo.svg"
+        />
         <Card.Body>
           <Card.Title>Card Title</Card.Title>
           <Card.Text>

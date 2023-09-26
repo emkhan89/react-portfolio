@@ -79,6 +79,17 @@ function Navbar() {
           <b>Contact</b>
         </h4>
       </NavLink>
+      <NavLink
+        id="nav-item"
+        to="coach"
+        className={({ isActive }) =>
+          isActive ? "nav-link active" : "nav-link"
+        }
+      >
+        <h4>
+          <b>Coach</b>
+        </h4>
+      </NavLink>
     </nav>
   );
 }

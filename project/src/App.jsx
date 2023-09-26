@@ -6,7 +6,8 @@ import Home from "./components/pages/Home";
 // import ChallengesCard from "./components/ChallengesCard";
 import Test from "./components/pages/Test";
 import "bootstrap/dist/css/bootstrap.min.css";
-import * as bootstrap from "bootstrap"; // Import all of Bootstrap's JS
+import * as bootstrap from "bootstrap"; // Import all of Bootstrap's
+import Coach from "./components/Coach";
 
 // import ChallengesCard from "./components/ChallengesCard/index";
 // import challenges from "./challenges.json";
@@ -18,6 +19,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="test" element={<Test />} />
+          <Route path="coach" element={<Coach />}></Route>
           <Route path="contact/*" element={<Contact />} />
         </Routes>
       </Router>
